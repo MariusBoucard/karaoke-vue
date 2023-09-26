@@ -156,9 +156,10 @@ Up above
     }
     
     .custom-textarea {
-      width: 100%;
-      padding: 10px;
-      min-height:500px;
+      width: 80%;
+      margin: auto;
+      padding-top: 10px;
+      min-height:1000px;
       border: 1px solid #ccc;
       border-radius: 5px;
       font-size: 14px;
@@ -166,7 +167,8 @@ Up above
   .custom-container {
       display: flex;
       width: 100%;
-      padding: 10px;
+      padding: 0px;
+      padding-top: 10px;
       background-color: #e0e0e0;
     }
     .custom-container2 {
@@ -174,7 +176,7 @@ Up above
       flex-direction: column;
       text-align: center;
       width: 100%;
-      padding: 10px;
+      padding: 0px;
       background-color: #e0e0e0;
     }
     .custom-input-style {

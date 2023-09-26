@@ -210,7 +210,7 @@ export default {
 .custom-container {
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     background-color: #e0e0e0;
 }
 

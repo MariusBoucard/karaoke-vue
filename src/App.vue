@@ -76,6 +76,7 @@ export default {
     },
     updateParoles(evt){
       this.songCore.updateParoles(evt)
+      this.paroles = evt
       this.lines = this.chansonStore.getLines()
       this.saveLocal()
     },
@@ -172,7 +173,9 @@ export default {
       display: flex;
       justify-content: flex-end;
       width: 100%;
-      padding: 10px;
+      padding: 0px;
+      padding-top : 10px;
+      padding-bottom: 10px;
       background-color: #e0e0e0;
     }
     

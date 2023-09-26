@@ -71,9 +71,14 @@ function createLine(line){
             // calcul de la position en fonction de comment la ligne est rempli
             let posi = Math.floor(((chord.time-chord.debDiv) / duree)* lenLine)
             console.log(posi)
+            let po = posi - chordLine.length
+            if(po<0){
+                chordLine+=' '+chord.chord
+            } else {
+                const spaces = " ".repeat(posi - chordLine.length)
+                chordLine+=spaces+chord.chord
 
-            const spaces = " ".repeat(posi - chordLine.length)
-            chordLine+=spaces+chord.chord
+            }
         })
         console.log(chordLine)
         

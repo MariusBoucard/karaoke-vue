@@ -232,7 +232,7 @@ export default {
 
 .column-container {
     display: flex;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
 }
 .chordContainer {
@@ -262,7 +262,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 .button {
